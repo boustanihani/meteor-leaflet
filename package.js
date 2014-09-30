@@ -1,8 +1,8 @@
 Package.describe({
-  summary: "Leaflet.js, mobile-friendly interactive maps. Read https://github.com/bevanhunt/meteor-leaflet for installation instructions."
+  summary: "Leaflet.js, mobile-friendly interactive maps. Read https://github.com/boustanihani/meteor-leaflet for installation instructions."
 });
 
-Package.on_use(function (api, where) {
+Package.on_use(function(api, where) {
   api.add_files('lib/leaflet.js', 'client');
   api.add_files('lib/leaflet_providers.js', 'client');
   api.add_files('styles/leaflet.css', 'client');

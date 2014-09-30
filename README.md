@@ -5,18 +5,17 @@
 Current Version: 0.7.3
 
 ## How to install 
-1. npm install -g meteorite (if not already installed)
-2. mrt add leaflet
-3. write the map code in Template.myTemplate.rendered
-4. set in your client code the default image path 
-5. optional - set your free tile provider - [Read Docs](https://github.com/leaflet-extras/leaflet-providers)
+1. meteor add boustanihani:leaflet
+2. write the map code in Template.myTemplate.rendered
+3. set in your client code the default image path 
+4. optional - set your free tile provider - [Read Docs](https://github.com/leaflet-extras/leaflet-providers)
 
-step 4 
+step 3 
 ```coffeescript
-L.Icon.Default.imagePath = 'packages/mrt_leaflet/images'
+L.Icon.Default.imagePath = 'packages/boustanihani_leaflet/images'
 ```
 
-step 5 - example
+step 4 - example
 ```coffeescript
 L.tileLayer.provider('Stamen.Watercolor').addTo(map)
 ```
@@ -26,9 +25,6 @@ If you want to add Leaflet plugins to your project - include them in your client
 
 ## GeoJSON 
 I suggest the free web service - [Orge Web Service](http://ogre.adc4gis.com/) 
-
-## Demo
-Meteor Leafet Demo  |  [GitHub](https://github.com/bevanhunt/meteor-leaflet-demo)  |  [Demo](http://leaflet.meteor.com)
 
 ## License
 MIT/X11
