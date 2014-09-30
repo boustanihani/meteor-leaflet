@@ -1,7 +1,0 @@
-{
-  "name": "leaflet",
-  "description": "Leaflet.js, mobile-friendly interactive maps. http://leafletjs.com",
-  "homepage": "https://github.com/boustanihani/meteor-leaflet",
-  "version": "0.7.3",
-  "git": "https://github.com/boustanihani/meteor-leaflet.git"
-}

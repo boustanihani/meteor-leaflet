@@ -1,5 +1,10 @@
+// meteor publish --create
+
 Package.describe({
-  summary: "Leaflet.js, mobile-friendly interactive maps. Read https://github.com/boustanihani/meteor-leaflet for installation instructions."
+  name: "boustanihani:meteor-leaflet",
+  summary: "Leaflet.js version 0.7.3, mobile-friendly interactive maps.",
+  version: "0.7.4",
+  git: "https://github.com/boustanihani/meteor-leaflet.git"
 });
 
 Package.on_use(function(api, where) {

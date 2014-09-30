@@ -5,14 +5,14 @@
 Current Version: 0.7.3
 
 ## How to install 
-1. meteor add boustanihani:leaflet
+1. meteor add boustanihani:meteor-leaflet
 2. write the map code in Template.myTemplate.rendered
 3. set in your client code the default image path 
 4. optional - set your free tile provider - [Read Docs](https://github.com/leaflet-extras/leaflet-providers)
 
 step 3 
 ```coffeescript
-L.Icon.Default.imagePath = 'packages/boustanihani_leaflet/images'
+L.Icon.Default.imagePath = 'packages/boustanihani_meteor-leaflet/images'
 ```
 
 step 4 - example
